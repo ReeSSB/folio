@@ -36,7 +36,7 @@ const Technologies = () => (
 
 		<SectionTitle> Technologies</SectionTitle>
 		<SectionText>
-			I have worked with a range of technolgies in the web development world.
+			I've worked with a range of technolgies in the web development world.
 			Ranging from Front-end to backend including databases.
 		</SectionText>
 		<List>
