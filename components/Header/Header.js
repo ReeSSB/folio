@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import { ImMail4 } from "react-icons/Im";
 import { DiAtom } from "react-icons/di";
 import { ChevronLeftIcon, ChevronRightIcon, AtSignIcon } from "@chakra-ui/icons";
 
@@ -28,17 +29,17 @@ const Header = () => (
 		</Div1>
 		<Div2>
 			<li>
-				<Link href="#projects" passHref>
+				<Link href="#projects">
 					<NavLink>Projects</NavLink>
 				</Link>
 			</li>
 			<li>
-				<Link href="#tech" passHref>
+				<Link href="#tech">
 					<NavLink>Technologies</NavLink>
 				</Link>
 			</li>
 			<li>
-				<Link href="#about" passHref>
+				<Link href="#about">
 					<NavLink>About</NavLink>
 				</Link>
 			</li>
@@ -49,6 +50,9 @@ const Header = () => (
 			</SocialIcons>
 			<SocialIcons href="https://www.linkedin.com/in/srshashibhushannbhardwaj/">
 				<AiFillLinkedin size="3rem" />
+			</SocialIcons>
+			<SocialIcons href="mailto:contact@shashi.as05@gmail.com">
+				<ImMail4 size="2.7rem" />
 			</SocialIcons>
 			{/* <SocialIcons href="https://instagram.com/">
 				<AiFillInstagram size="3rem" />
