@@ -32,12 +32,42 @@ export const projects = [
 	{
 		title: "Chat App",
 		description:
-			"This is developed using ChatEngine and React. It is a basic app where users can send messages in real-time, admin can create Chat Groups, delete users and add if the user exist in Chat Engine users list. Apart from that images can be shared. Try with credentials, username : Arjun, password : 15Arjun",
+			"This is developed using ChatEngine and React. It is a basic app where users can send messages in real-time, admin can create Chat Groups, delete users and add if the user exist in Chat Engine users list. Images can be shared. Credentials, username : Arjun, password : 15Arjun",
 		image: "/images/4.jpg",
 		tags: ["React", "ChatEngine"],
 		source: "https://github.com/ReeSSB/chat_application",
 		visit: "https://chat-application-reessb.netlify.app/",
+		id: 1,
+	},
+	{
+		title: "Booking App",
+		description:
+			"This is a simple booking app named Targus Booking, to book hotel rooms by selecting date. Created using Reactjs, and many other external libraries of react. It has a backend hosted on heroku.",
+		image: "/images/5.jpg",
+		tags: ["React"],
+		source: "https://github.com/ReeSSB/bookingApp",
+		visit: "https://bookingapptargus.netlify.app/",
+		id: 2,
+	},
+	{
+		title: "Admin App",
+		description:
+			"This is a admin for hotel booking app named Targus, admin panel has multiple features of adding hotel rooms, hotels, users, maintaining recrods, sales and revenue. It is built ising react and mutiple external library and has bootstrap UI.It has a backend hosted on heroku and connected database through mongodb. Credential, Username: Arjun, password: arjun",
+		image: "/images/6.jpg",
+		tags: ["React"],
+		source: "https://github.com/ReeSSB/adminPanel",
+		visit: "https://adminpaneltargus.netlify.app/",
 		id: 3,
+	},
+	{
+		title: "Portfolio App",
+		description:
+			"This portfolio is buildt using NextJs and hosted on vercel, built to showcase my works and to reach upto people.",
+		image: "/images/7.jpg",
+		tags: ["Nextjs"],
+		source: "https://github.com/ReeSSB/portfolio",
+		visit: "https://srshashibhushan.vercel.app",
+		id: 4,
 	},
 ];
 
