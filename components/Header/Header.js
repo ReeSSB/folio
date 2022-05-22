@@ -29,29 +29,29 @@ const Header = () => (
 		</Div1>
 		<Div2>
 			<li>
-				<Link href="#projects">
+				<Link href="#projects" passHref={true}>
 					<NavLink>Projects</NavLink>
 				</Link>
 			</li>
 			<li>
-				<Link href="#tech">
+				<Link href="#tech" passHref={true}>
 					<NavLink>Technologies</NavLink>
 				</Link>
 			</li>
 			<li>
-				<Link href="#about">
+				<Link href="#about" passHref={true}>
 					<NavLink>About</NavLink>
 				</Link>
 			</li>
 		</Div2>
 		<Div3>
-			<SocialIcons href="https://github.com/ReeSSB">
+			<SocialIcons href="https://github.com/ReeSSB" passHref={true}>
 				<AiFillGithub size="3rem" />
 			</SocialIcons>
-			<SocialIcons href="https://www.linkedin.com/in/srshashibhushannbhardwaj/">
+			<SocialIcons href="https://www.linkedin.com/in/srshashibhushannbhardwaj/" passHref={true}>
 				<AiFillLinkedin size="3rem" />
 			</SocialIcons>
-			<SocialIcons href="mailto:contact@shashi.as05@gmail.com">
+			<SocialIcons href="mailto:contact@shashi.as05@gmail.com" passHref={true}>
 				<ImMail4 size="2.7rem" />
 			</SocialIcons>
 			{/* <SocialIcons href="https://instagram.com/">
