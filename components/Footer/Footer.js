@@ -26,13 +26,13 @@ const Footer = () => {
 				<LinkList>
 					<LinkColumn>
 						<LinkTitle>Call (say Hello)</LinkTitle>
-						<LinkItem href="tel:+91 6203387681">
+						<LinkItem href="tel:+91 6203387681" passHref={true}>
 							+91 6203387681
 						</LinkItem>
 					</LinkColumn>
 					<LinkColumn>
 						<LinkTitle>Email Me...</LinkTitle>
-						<LinkItem href="mailto:contact@shashi.as05@gmail.com">
+						<LinkItem href="mailto:contact@shashi.as05@gmail.com" passHref={true}>
 							{/* srshashibhushanbhardwaj@gmail.com */}
 							shashi.as05@gmail.com
 						</LinkItem>
@@ -43,13 +43,13 @@ const Footer = () => {
 						<Slogan>✌️...Keep Coding!</Slogan>
 					</CompanyContainer>
 					<SocialContainer>
-						<SocialIcons href="https://github.com/">
+						<SocialIcons href="https://github.com/" passHref={true}>
 							<AiFillGithub size="3rem" />
 						</SocialIcons>
-						<SocialIcons href="https://linkedin.com/">
+						<SocialIcons href="https://linkedin.com/" passHref={true}>
 							<AiFillLinkedin size="3rem" />
 						</SocialIcons>
-						<SocialIcons href="mailto:contact@shashi.as05@gmail.com">
+						<SocialIcons href="mailto:contact@shashi.as05@gmail.com" passHref={true}>
 							<ImMail4 size="2.7rem" />
 						</SocialIcons>
 						{/* <SocialIcons href="https://instagram.com/">
