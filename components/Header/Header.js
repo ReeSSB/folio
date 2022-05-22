@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
-import { ImMail4 } from "react-icons/Im";
+import { ImMail4 } from "react-icons/im";
 import { DiAtom } from "react-icons/di";
 import { ChevronLeftIcon, ChevronRightIcon, AtSignIcon } from "@chakra-ui/icons";
 
