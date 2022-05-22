@@ -8,7 +8,7 @@ const Hero = (props) => (
 	<Section row nopadding>
 		<LeftSection>
 			<SectionTitle main center>
-				<Span1>Hey there! I am,</Span1> <br />
+				<Span1>Hey there! I'm,</Span1> <br />
 				<Span2>Shashi Bhushan.</Span2>
 			</SectionTitle>
 			<SectionText>
@@ -17,7 +17,7 @@ const Hero = (props) => (
 					<br />
 					<br />I have keen interest in Creating, Designing and
 					Building things. <br />
-					🏢 Open for Work Opportunity
+					🏢 Open for full-time Work Opportunity
 					<br />
 					⚒️ Open for collaboration and side projects.
 				</Span3>
