@@ -1,6 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 
 import {
+	ResumeBtn,
 	CarouselButton,
 	CarouselButtonDot,
 	CarouselButtons,
@@ -11,12 +12,7 @@ import {
 	CarouselItemTitle,
 	CarouselMobileScrollNode,
 } from "./TimeLineStyles";
-import {
-	Section,
-	SectionDivider,
-	SectionText,
-	SectionTitle,
-} from "../../styles/GlobalComponents";
+import { Section, SectionDivider, SectionText, SectionTitle } from "../../styles/GlobalComponents";
 import { TimeLineData } from "../../constants/constants";
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
@@ -44,8 +40,7 @@ const Timeline = () => {
 	const handleScroll = () => {
 		if (carouselRef.current) {
 			const index = Math.round(
-				(carouselRef.current.scrollLeft /
-					(carouselRef.current.scrollWidth * 0.7)) *
+				(carouselRef.current.scrollLeft / (carouselRef.current.scrollWidth * 0.7)) *
 					TimeLineData.length
 			);
 
@@ -65,15 +60,16 @@ const Timeline = () => {
 
 	return (
 		<Section id="about">
+			<SectionDivider />
+			<br />
 			<SectionTitle>About Me</SectionTitle>
 			<SectionText>
-				I am a web developer that comes from Business Background. Through
-				my past experiences, I can understand the needs of users and
-				business requirements and how I can contribute as a Developer and
-				help in solving their problems.
-				<br />I have worked with wide range of people from different
-				background, demographics and corporates. This has enabled me to
-				become flexible and adapt in the workplace.{" "}
+				I am a web developer that comes from Business Background. Through my past
+				experiences, I can understand the needs of users and business requirements and how I
+				can contribute as a Developer and help in solving their problems.
+				<br />I have worked with wide range of people from different background,
+				demographics and corporates. This has enabled me to become flexible and adapt in the
+				workplace.{" "}
 			</SectionText>
 			{/* <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
 				<>
@@ -144,7 +140,6 @@ const Timeline = () => {
 					</CarouselButton>
 				))}
 			</CarouselButtons> */}
-			<SectionDivider />
 		</Section>
 	);
 };
