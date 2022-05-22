@@ -1,5 +1,5 @@
 import React from "react";
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiOutlineMail } from "react-icons/ai";
 import { ImMail4 } from "react-icons/im";
 
 import { SocialIcons } from "../Header/HeaderStyles";
@@ -50,7 +50,7 @@ const Footer = () => {
 							<AiFillLinkedin size="3rem" />
 						</SocialIcons>
 						<SocialIcons href="mailto:contact@shashi.as05@gmail.com" passHref={true}>
-							<ImMail4 size="2.7rem" />
+							<AiOutlineMail size="3rem" />
 						</SocialIcons>
 						{/* <SocialIcons href="https://instagram.com/">
 						<AiFillInstagram size="3rem" />
