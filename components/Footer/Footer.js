@@ -1,5 +1,6 @@
 import React from "react";
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import { ImMail4 } from "react-icons/Im";
 
 import { SocialIcons } from "../Header/HeaderStyles";
 import {
@@ -17,37 +18,46 @@ import {
 const Footer = () => {
 	return (
 		<FooterWrapper>
-			<LinkList>
-				<LinkColumn>
-					<LinkTitle>Call</LinkTitle>
-					<LinkItem href="tel:+91 6203387681">
-						+91 6203387681
-					</LinkItem>
-				</LinkColumn>
-				<LinkColumn>
-					<LinkTitle>Email</LinkTitle>
-					<LinkItem href="mailto:contact@srshashibhushanbhardwaj@gmail.com">
-						{/* srshashibhushanbhardwaj@gmail.com */}
-						shashi.as05@gmail.com
-					</LinkItem>
-				</LinkColumn>
-			</LinkList>
-			<SocialIconsContainer>
-				<CompanyContainer>
-					<Slogan>✌️...Keep Coding!</Slogan>
-				</CompanyContainer>
-				<SocialContainer>
-					<SocialIcons href="https://github.com/">
-						<AiFillGithub size="3rem" />
-					</SocialIcons>
-					<SocialIcons href="https://linkedin.com/">
-						<AiFillLinkedin size="3rem" />
-					</SocialIcons>
-					{/* <SocialIcons href="https://instagram.com/">
+			<div>
+				<div style={{ display: "flex", alignContent: "center" }}>
+					<h1>Get In Touch !</h1>
+				</div>
+
+				<LinkList>
+					<LinkColumn>
+						<LinkTitle>Call (say Hello)</LinkTitle>
+						<LinkItem href="tel:+91 6203387681">
+							+91 6203387681
+						</LinkItem>
+					</LinkColumn>
+					<LinkColumn>
+						<LinkTitle>Email Me...</LinkTitle>
+						<LinkItem href="mailto:contact@shashi.as05@gmail.com">
+							{/* srshashibhushanbhardwaj@gmail.com */}
+							shashi.as05@gmail.com
+						</LinkItem>
+					</LinkColumn>
+				</LinkList>
+				<SocialIconsContainer>
+					<CompanyContainer>
+						<Slogan>✌️...Keep Coding!</Slogan>
+					</CompanyContainer>
+					<SocialContainer>
+						<SocialIcons href="https://github.com/">
+							<AiFillGithub size="3rem" />
+						</SocialIcons>
+						<SocialIcons href="https://linkedin.com/">
+							<AiFillLinkedin size="3rem" />
+						</SocialIcons>
+						<SocialIcons href="mailto:contact@shashi.as05@gmail.com">
+							<ImMail4 size="2.7rem" />
+						</SocialIcons>
+						{/* <SocialIcons href="https://instagram.com/">
 						<AiFillInstagram size="3rem" />
 					</SocialIcons> */}
-				</SocialContainer>
-			</SocialIconsContainer>
+					</SocialContainer>
+				</SocialIconsContainer>
+			</div>
 		</FooterWrapper>
 	);
 };
