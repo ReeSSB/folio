@@ -1,6 +1,6 @@
 import React from "react";
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
-import { ImMail4 } from "react-icons/Im";
+import { ImMail4 } from "react-icons/im";
 
 import { SocialIcons } from "../Header/HeaderStyles";
 import {
