@@ -43,6 +43,14 @@ const Header = () => (
 					<NavLink>About</NavLink>
 				</Link>
 			</li>
+	                <li>
+				<Link
+					href="https://drive.google.com/file/d/1-_h2uA0Zlasgonc-KZbKE0tzYdLaa-GU/view?usp=sharing"
+					passHref={true}
+				>
+					<NavLink target="_blank">Resume</NavLink>
+				</Link>
+			</li>
 		</Div2>
 		<Div3>
 			<SocialIcons href="https://github.com/ReeSSB" passHref={true}>
