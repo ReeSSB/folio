@@ -62,7 +62,9 @@ const Timeline = () => {
 		<Section id="about">
 			<SectionDivider />
 			<br />
-			<SectionTitle>About Me</SectionTitle>
+			<SectionTitle>
+		<br/>
+		About Me</SectionTitle>
 			<SectionText>
 				I am a web developer that comes from Business Background. Through my past
 				experiences, I can understand the needs of users and business requirements and how I
