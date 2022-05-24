@@ -34,7 +34,9 @@ const Technologies = () => (
 		<br />
 		<br />
 
-		<SectionTitle> Technologies</SectionTitle>
+	<SectionTitle> 
+	<br/>
+	Technologies</SectionTitle>
 		<SectionText>
 			I have worked with a range of technolgies in the web development world.
 			Ranging from Front-end to backend including databases.
