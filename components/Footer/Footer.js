@@ -43,13 +43,13 @@ const Footer = () => {
 						<Slogan>✌️...Keep Coding!</Slogan>
 					</CompanyContainer>
 					<SocialContainer>
-						<SocialIcons href="https://github.com/" passHref={true}>
+						<SocialIcons href="https://github.com/" passHref={true} target="_blank">
 							<AiFillGithub size="3rem" />
 						</SocialIcons>
-						<SocialIcons href="https://linkedin.com/" passHref={true}>
+						<SocialIcons href="https://linkedin.com/" passHref={true} target="_blank">
 							<AiFillLinkedin size="3rem" />
 						</SocialIcons>
-						<SocialIcons href="mailto:contact@shashi.as05@gmail.com" passHref={true}>
+						<SocialIcons href="mailto:contact@shashi.as05@gmail.com" passHref={true} target="_blank">
 							<AiOutlineMail size="3rem" />
 						</SocialIcons>
 						{/* <SocialIcons href="https://instagram.com/">
