@@ -17,7 +17,7 @@ const Hero = (props) => (
 					<br />
 					<br />I have keen interest in Creating, Designing and
 					Building things. <br />
-					🏢 Open for full-time Work Opportunity
+					🏢 Open for full-time Work Opportunity.
 					<br />
 					⚒️ Open for collaboration and side projects.
 				</Span3>
