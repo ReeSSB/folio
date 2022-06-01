@@ -53,13 +53,13 @@ const Header = () => (
 			</li>
 		</Div2>
 		<Div3>
-			<SocialIcons href="https://github.com/ReeSSB" passHref={true}>
+			<SocialIcons href="https://github.com/ReeSSB" passHref={true} target="_blank">
 				<AiFillGithub size="3rem" />
 			</SocialIcons>
-			<SocialIcons href="https://www.linkedin.com/in/srshashibhushannbhardwaj/" passHref={true}>
+			<SocialIcons href="https://www.linkedin.com/in/srshashibhushannbhardwaj/" passHref={true} target="_blank">
 				<AiFillLinkedin size="3rem" />
 			</SocialIcons>
-			<SocialIcons href="mailto:contact@shashi.as05@gmail.com" passHref={true}>
+			<SocialIcons href="mailto:contact@shashi.as05@gmail.com" passHref={true} target="_blank">
 				<AiOutlineMail size="3rem" />
 			</SocialIcons>
 			{/* <SocialIcons href="https://instagram.com/">
