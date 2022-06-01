@@ -27,6 +27,7 @@ const Hero = (props) => (
 					(window.location =
 						"https://www.linkedin.com/in/srshashibhushannbhardwaj/.com")
 				}
+				target="_blank"
 			>
 				Know More
 			</Button>
