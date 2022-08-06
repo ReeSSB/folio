@@ -60,6 +60,16 @@ export const projects = [
 		id: 3,
 	},
 	{
+		title: "IMDB Clone",
+		description:
+			"This Project is built using Reactjs. It is using API provided by TMDB. It has used React Loading Skeleton and React Responsive Package ",
+		image: "/images/8.jpg",
+		tags: ["ReactJs "],
+		source: "https://github.com/ReeSSB/IMDBClone",
+		visit: "https://srshashibhushan.vercel.app",
+		id: 4,
+	},
+	{
 		title: "Portfolio App",
 		description:
 			"This portfolio is buildt using NextJs and hosted on vercel, built to showcase my works and to reach upto people.",
@@ -67,7 +77,7 @@ export const projects = [
 		tags: ["Nextjs"],
 		source: "https://github.com/ReeSSB/portfolio",
 		visit: "https://srshashibhushan.vercel.app",
-		id: 4,
+		id: 5,
 	},
 ];
 
