@@ -66,7 +66,7 @@ export const projects = [
 		image: "/images/8.jpg",
 		tags: ["ReactJs "],
 		source: "https://github.com/ReeSSB/IMDBClone",
-		visit: "https://srshashibhushan.vercel.app",
+		visit: "https://imdbclonereact.netlify.app/",
 		id: 4,
 	},
 	{
